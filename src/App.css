@@ -1,0 +1,29 @@
+body {
+    text-align: center;
+    background-color: rgb(255, 255, 255);
+}
+.productContainer {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+
+  a {
+      font-family: cursive;
+      text-decoration: none;
+      color: black;
+  }
+
+  .productContainer > .link {
+    text-align: center;
+    width: 300px;
+    box-shadow: 0 2px 20px currentColor;
+    margin: 10px;
+  }
+  
+ .nav-links {
+    color: #fffefe;
+    margin: 0 70px;
+    font-family: sans-serif;
+ }
+
