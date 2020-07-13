@@ -8,7 +8,7 @@ function ProductDetails() {
     console.log(productsId)
     const product = Shoe[productsId];
     return (
-        <div>
+        <div className="detail-div">
              <img src={product.img} height={450} alt="shoe" />
              <h4>{product.name}</h4>
              <h4>{product.name2}</h4>
