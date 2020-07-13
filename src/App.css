@@ -27,3 +27,67 @@ body {
     font-family: sans-serif;
  }
 
+ .home-div {
+   position: relative;
+   background-image: url(./Components/images/69960af6d3e18cc78741f4e12f5d65c1bfe60a0c_hero-header-desktop_EU.jpg);
+   background-position: center;
+   background-size: cover;
+   width: 100%;
+   height: 70vh;
+   margin: 0;
+   
+ }
+
+ .home-div > h1 {
+ position: absolute;
+ margin: 0;
+ top: 60%;
+ left: 50%;
+ transform: translate(-50%, -50%);
+ }
+
+
+ .Button {
+  width: 169%;
+    background: #0e1b67 !important;
+ }
+
+ .flex {
+   display: flex;
+   margin: 3px 0;
+   padding: 30px;
+   text-align: center;
+   color: rgb(0, 0, 0);
+   font-weight: 800;
+   font-size: larger;
+   font-family: sans-serif;
+ }
+
+.div-1 {
+  position: relative;
+  background-image: url(./Components/images/7e7ffeb880a064a64bc3855c65c022e4f105b660_final.png);
+  background-position: center;
+  background-size: cover;
+  width: 100%;
+  height: 40vh;
+  margin: 3;
+}
+
+.div-2 {
+  position: relative;
+
+  background-image: url(./Components/images/e0b6dc485af5d62376c32b25b737c3d6b94647bd_desktop1.jpg);
+  background-position: center;
+  background-size: cover;
+  width: 100%;
+  height: 40vh;
+  margin: 3;
+}
+
+.span-1 {
+  position: absolute;
+  margin: 0;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
