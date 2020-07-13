@@ -102,19 +102,27 @@ width: 100%;
 .detail-div {
 width: 100%;
 }
-      @media only screen and (max-width: 600px) {
-  .nav-links {
+@media (min-width: 481px) and (max-width: 767px) {
+  
+   .nav-links {
     margin: 0 0px;
  }
-     @media only screen and (min-device-width: 480px){
-          .nav-links {
-    margin:0px;
- }
-          }
-  }
-img {
-  width: 100%;
+  
 }
+
+/* 
+  ##Device = Most of the Smartphones Mobiles (Portrait)
+  ##Screen = B/w 320px to 479px
+*/
+
+@media (min-width: 320px) and (max-width: 480px) {
+  
+  .nav-links {
+    margin: 0;
+ }
+  
+}
+
 }
 img {
   width: 100%;
